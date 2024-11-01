@@ -1,0 +1,16 @@
+<header>
+    <div class="container">
+        <section class="branding">
+            <img src="https://picsum.photos/id/189/32/32" alt="Logo" class="logo">
+            <h1>LAS BELLEZAS DEL CIELO/NATURALEZA</h1>
+        </section>
+        <nav>
+            <ul>
+                {{#each nav}}
+                    <li><a href="%BASE_URL%{{uri}}">{{label}}</a></li>
+                {{/each}}
+            </ul>
+           
+        </nav>
+    </div>
+</header>
